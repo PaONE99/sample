@@ -1,0 +1,51 @@
+Post: http://localhost:8088/student/create
+
+{
+        
+        "name": "Joy",
+        "aadharNo": "133456722224",
+        "dob": "1995-08-20",
+        "highestQualification": "Bachelor's Degree",
+        "passingYear": "2018",
+        "specialization": "Computer Science",
+        "district": "Example District",
+        "itiName": "Example ITI",
+        "admissionMonthAndYear": "January 2022",
+        "courseDuration": "2 Years",
+        "primaryContactNumber": "9876532110",
+        "trade": "Electrician",
+        "createdBy": "AdminUser"
+    }
+
+
+Delete : http://localhost:8088/student/delete/303
+
+
+
+Put :http://localhost:8088/student/update/303
+
+
+{
+        "id": 2,
+        "name": "John Doe",
+        "aadharNo": "123456722222",
+        "dob": "1995-08-20",
+        "highestQualification": "Bachelor's Degree",
+        "passingYear": "2018",
+        "specialization": "Computer Science",
+        "district": "Example District",
+        "itiName": "Example ITI",
+        "admissionMonthAndYear": "January 2022",
+        "courseDuration": "2 Years",
+        "primaryContactNumber": "9876543210",
+        "trade": "Electrician",
+        "createdBy": "AdminUser",
+        "createdOn": null,
+        "updatedOn": null,
+        "updatedBy": "OptionalUpdater",
+        "deleteId": null,
+        "remarks": "Optional remarks"
+    }
+
+
+

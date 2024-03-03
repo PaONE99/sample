@@ -1,0 +1,23 @@
+CREATE TABLE `student` (
+  `id` bigint NOT NULL,
+  `aadhar_no` varchar(255) DEFAULT NULL,
+  `admission_month_and_year` varchar(255) DEFAULT NULL,
+  `course_duration_1yr_or_2yr` varchar(255) DEFAULT NULL,
+  `created_by` varchar(255) NOT NULL,
+  `created_on` datetime(6) DEFAULT NULL,
+  `district` varchar(255) DEFAULT NULL,
+  `dob` date NOT NULL,
+  `highest_qualification` varchar(255) DEFAULT NULL,
+  `iti_name` varchar(255) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `passing_year` varchar(255) DEFAULT NULL,
+  `primary_contact_number` varchar(255) NOT NULL,
+  `remarks` varchar(255) DEFAULT NULL,
+  `specialization` varchar(255) DEFAULT NULL,
+  `trade` varchar(255) DEFAULT NULL,
+  `updated_by` varchar(255) DEFAULT NULL,
+  `updated_on` datetime(6) DEFAULT NULL,
+  `student_id` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_1h6umcod5q2ttxwblxjl5yh27` (`aadhar_no`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
